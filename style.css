@@ -1,0 +1,62 @@
+body, h1, h2, h3, p, ul, li, header, nav, main, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Assuming nav is within header or similar background */
+    text-decoration: none;
+}
+
+/* Adjust nav link color if nav is not on dark background */
+/* If nav is separate from header, it might need its own background and link color adjustment */
+/* For now, assuming nav links are part of the dark header visually */
+
+.container { /* We'll need to add this class to a div wrapping main content in HTMLs */
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Clear floats */
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
